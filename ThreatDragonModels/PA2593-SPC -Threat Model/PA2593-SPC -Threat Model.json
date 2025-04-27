@@ -1,0 +1,26 @@
+{
+  "version": "2.4.1",
+  "summary": {
+    "title": "PA2593-SPC -Threat Model",
+    "owner": "",
+    "description": "",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "PA2593SPC ",
+        "diagramType": "Generic",
+        "placeholder": "New generic diagram description",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "version": "2.4.1",
+        "cells": []
+      }
+    ],
+    "diagramTop": 2,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
