@@ -1,0 +1,26 @@
+{
+  "version": "2.4.1",
+  "summary": {
+    "title": "pa2593-spc",
+    "owner": "",
+    "description": "",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 2,
+        "title": "pa2593-spc",
+        "diagramType": "Generic",
+        "placeholder": "New generic diagram description",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "version": "2.4.1",
+        "cells": []
+      }
+    ],
+    "diagramTop": 3,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
