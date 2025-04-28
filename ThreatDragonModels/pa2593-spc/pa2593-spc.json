@@ -303,8 +303,8 @@
                 "text": "Asset : Web App"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -400,25 +400,30 @@
               "description": "Description :\nValue : High",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "793752cf-556f-4314-a924-d92d53d4b068",
+                  "title": "DDoS Attack",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Availability",
+                  "description": "Cybercriminals overwhelming EaaS Payment Servers to disrupt the financial operations.\n\n",
+                  "mitigation": "1.Web Application Firewall (WAF) & DDoS Protection.\nDeploy a cloud-based DDoS mitigation service (e.g., AWS Shield, Cloudflare).\nImplement rate limiting & bot detection for payment requests.\nUse AI-driven traffic analysis to detect unusual surges.\n\n2. Immutable Backups with Real-Time Anomaly Detection.\nMaintain offline, immutable backups of payment data.\nImplement automated response mechanisms to isolate infected systems.\nUse real-time anomaly detection (e.g., detecting unusual encryption of files).",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 1,
+                  "score": ""
+                }
+              ]
             },
             "children": [
               "737c2cf8-cbf2-422a-979e-e8317dd3088c"
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
-            }
+            ]
           },
           {
             "position": {
@@ -1928,6 +1933,6 @@
     ],
     "diagramTop": 3,
     "reviewer": "",
-    "threatTop": 0
+    "threatTop": 1
   }
 }
