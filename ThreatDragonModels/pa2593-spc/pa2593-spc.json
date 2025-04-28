@@ -439,11 +439,13 @@
                 "text": "Asset : WebApp DB"
               },
               "topLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -536,16 +538,37 @@
             "data": {
               "type": "tm.Store",
               "name": "Asset : WebApp DB",
-              "description": "",
+              "description": "Value : High",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "d0dd040d-b881-4284-8b87-039dd973f820",
+                  "title": "Credential Stuffing & Brute Force Attacks and Data Breaches",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Confidentiality",
+                  "description": "Vulnerabilities:\nWeak/Inconsistent data access controls.\nWeak Authentication/ Password Management Mechanisms. ",
+                  "mitigation": "1.Role-Based Access Control (RBAC) with Least Privilege.\nRestrict access to payment data based on job roles.\nRegularly audit access logs to detect unusual patterns.\nApply zero-trust principles—never assume implicit trust\n\n\n2. Multi-Factor Authentication (MFA)\nEnforce MFA for all user logins, especially for high-privilege accounts.\nImplement password less authentication (e.g. passkeys) where feasible.\nEnable adaptive authentication (e.g., blocking logins from unusual locations).",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 2,
+                  "score": ""
+                }
+              ]
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -1933,6 +1956,6 @@
     ],
     "diagramTop": 3,
     "reviewer": "",
-    "threatTop": 1
+    "threatTop": 2
   }
 }
