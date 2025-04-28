@@ -19,6 +19,32 @@
         "cells": [
           {
             "position": {
+              "x": -228.00000000000227,
+              "y": -602.9999999999945
+            },
+            "size": {
+              "width": 1400,
+              "height": 390
+            },
+            "attrs": {
+              "label": {
+                "text": "EaaS Payment Processing Infrastructure"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "4ee4725d-6159-4e36-bc10-3dfd268b6146",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "EaaS Payment Processing Infrastructure",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
               "x": 130,
               "y": 240
             },
@@ -865,8 +891,8 @@
           },
           {
             "position": {
-              "x": 90,
-              "y": -490
+              "x": -80,
+              "y": -480
             },
             "size": {
               "width": 112.5,
