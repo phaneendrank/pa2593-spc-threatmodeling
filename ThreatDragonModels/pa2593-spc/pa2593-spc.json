@@ -20,7 +20,7 @@
           {
             "position": {
               "x": 130,
-              "y": 120
+              "y": 240
             },
             "size": {
               "width": 120,
@@ -41,6 +41,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -124,7 +125,6 @@
               ]
             },
             "id": "c73f9e01-7b21-4b5e-84e6-4fdc27764651",
-            "zIndex": 1,
             "data": {
               "type": "tm.Store",
               "name": "Asset Type : Payment Processing Infrastructure",
@@ -142,8 +142,8 @@
           },
           {
             "position": {
-              "x": 510,
-              "y": 100
+              "x": 400,
+              "y": 230
             },
             "size": {
               "width": 120,
@@ -164,6 +164,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -260,8 +261,249 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 150,
+              "y": 100
             },
-            "zIndex": 2,
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Asset : Web App"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "ed357514-bab9-46a5-9668-552e8d4b757f"
+                },
+                {
+                  "group": "right",
+                  "id": "d6ce1dba-552c-4ee1-bad0-36496dd54723"
+                },
+                {
+                  "group": "bottom",
+                  "id": "b5aeb6d6-5401-4e24-9d69-d88ae67ab626"
+                },
+                {
+                  "group": "left",
+                  "id": "1e76a939-a722-462a-93c5-7f3083fb1ef7"
+                }
+              ]
+            },
+            "id": "706c98fb-ee4a-41e7-ba14-16552707d2cf",
+            "zIndex": 3,
+            "data": {
+              "type": "tm.Process",
+              "name": "Asset : Web App",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 390,
+              "y": 80
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Asset : WebApp DB"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "034d45f0-e0a6-4061-a52f-d1223e520937"
+                },
+                {
+                  "group": "right",
+                  "id": "59f9d209-4848-4364-853c-b46490cddc4a"
+                },
+                {
+                  "group": "bottom",
+                  "id": "e3cf73e0-6b44-4276-bc9c-69529cbe6a80"
+                },
+                {
+                  "group": "left",
+                  "id": "188e7d88-1ae2-4648-a943-11d8f374f45c"
+                }
+              ]
+            },
+            "id": "e4260cd4-1cd6-4e63-8842-eaff859bfa9a",
+            "zIndex": 4,
+            "data": {
+              "type": "tm.Store",
+              "name": "Asset : WebApp DB",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            },
             "tools": {
               "items": [
                 "boundary",
