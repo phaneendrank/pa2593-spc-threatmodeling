@@ -19,7 +19,7 @@
         "cells": [
           {
             "position": {
-              "x": -228.00000000000227,
+              "x": -240,
               "y": -602.9999999999945
             },
             "size": {
@@ -33,8 +33,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "4ee4725d-6159-4e36-bc10-3dfd268b6146",
             "zIndex": -1,
+            "id": "4ee4725d-6159-4e36-bc10-3dfd268b6146",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "EaaS Payment Processing Infrastructure",
@@ -1335,6 +1335,106 @@
             }
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "3eb5a12e-9e8e-4d55-b69e-d29260fc0bb6",
+            "source": {
+              "x": -72,
+              "y": -420
+            },
+            "target": {
+              "cell": "c38b72c7-3099-4ec0-bd29-f6f6abd49364",
+              "port": "8f1dbc2a-6f02-417e-b26d-45955b128d1c"
+            },
+            "vertices": [
+              {
+                "x": -40,
+                "y": -400
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "c3f143f7-ce06-45d9-87e8-9952c08a55ef",
+            "source": {
+              "cell": "e4260cd4-1cd6-4e63-8842-eaff859bfa9a",
+              "port": "188e7d88-1ae2-4648-a943-11d8f374f45c"
+            },
+            "target": {
+              "cell": "c38b72c7-3099-4ec0-bd29-f6f6abd49364",
+              "port": "4bea0482-8807-4b39-aceb-d6f8691c3b96"
+            },
+            "vertices": [
+              {
+                "x": 90,
+                "y": -260
+              }
+            ]
+          },
+          {
             "position": {
               "x": 570,
               "y": -320
@@ -1570,6 +1670,248 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": -12,
+              "y": -380
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Asset : Account Ledger"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "8f1dbc2a-6f02-417e-b26d-45955b128d1c"
+                },
+                {
+                  "group": "right",
+                  "id": "7560ec7a-bb18-41b7-bac1-f4b5770cfac7"
+                },
+                {
+                  "group": "bottom",
+                  "id": "4bea0482-8807-4b39-aceb-d6f8691c3b96"
+                },
+                {
+                  "group": "left",
+                  "id": "00dd76fc-015b-4efe-b70e-46790ef6c0a6"
+                }
+              ]
+            },
+            "id": "c38b72c7-3099-4ec0-bd29-f6f6abd49364",
+            "zIndex": 13,
+            "data": {
+              "type": "tm.Process",
+              "name": "Asset : Account Ledger",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 700,
+              "y": -790
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Threat Actor : Cyber Criminals"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "0930e58e-09d8-4b94-8b54-6930dee01d0a"
+                },
+                {
+                  "group": "right",
+                  "id": "648af723-1e60-4108-b486-4fda9cfdb33a"
+                },
+                {
+                  "group": "bottom",
+                  "id": "8cc032c3-b9c8-42b6-be6f-97f387e0721c"
+                },
+                {
+                  "group": "left",
+                  "id": "e6ae44c7-32e9-4fa3-9419-96d854686b32"
+                }
+              ]
+            },
+            "id": "311b211d-6b75-4fe7-8c35-1c65ddfa44bb",
+            "zIndex": 14,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Threat Actor : Cyber Criminals",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           }
         ]
