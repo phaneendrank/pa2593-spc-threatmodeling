@@ -38,7 +38,7 @@
             "data": {
               "type": "tm.BoundaryBox",
               "name": "EaaS Payment Processing Infrastructure",
-              "description": "",
+              "description": "Value : High",
               "isTrustBoundary": true,
               "hasOpenThreats": false
             }
@@ -562,13 +562,6 @@
                   "score": ""
                 }
               ]
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -1817,7 +1810,7 @@
             "data": {
               "type": "tm.Process",
               "name": "Asset : Account Ledger",
-              "description": "",
+              "description": "Value : High",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
