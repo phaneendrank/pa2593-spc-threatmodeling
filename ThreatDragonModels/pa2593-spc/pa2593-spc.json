@@ -401,7 +401,7 @@
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": true,
-              "handlesCardPayment": false,
+              "handlesCardPayment": true,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
@@ -412,11 +412,24 @@
                   "status": "Open",
                   "severity": "High",
                   "type": "Availability",
-                  "description": "Cybercriminals overwhelming EaaS Payment Servers to disrupt the financial operations.\n\n",
+                  "description": "Cybercriminals overwhelming EaaS Payment Servers to disrupt the financial operations.\nRisk : High\n\n",
                   "mitigation": "1.Web Application Firewall (WAF) & DDoS Protection.\nDeploy a cloud-based DDoS mitigation service (e.g., AWS Shield, Cloudflare).\nImplement rate limiting & bot detection for payment requests.\nUse AI-driven traffic analysis to detect unusual surges.\n\n2. Immutable Backups with Real-Time Anomaly Detection.\nMaintain offline, immutable backups of payment data.\nImplement automated response mechanisms to isolate infected systems.\nUse real-time anomaly detection (e.g., detecting unusual encryption of files).",
                   "modelType": "default",
                   "new": false,
                   "number": 1,
+                  "score": ""
+                },
+                {
+                  "id": "9be61d1a-3a09-461e-ad39-86cdb8d282a9",
+                  "title": "Credential Stuffing & Brute Force Attacks",
+                  "status": "Open",
+                  "severity": "Critical",
+                  "type": "Integrity",
+                  "description": "Gaining unauthorized access to payment accounts.\nVulnerabilities :\nWeak Authentication/ Password Management Mechanisms.",
+                  "mitigation": "1.Multi-Factor Authentication (MFA).\nEnforce MFA for all user logins, especially for high-privilege accounts.\nImplement password less authentication (e.g. passkeys) where feasible.\nEnable adaptive authentication (e.g., blocking logins from unusual locations).",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 3,
                   "score": ""
                 }
               ]
@@ -550,18 +563,38 @@
               "threats": [
                 {
                   "id": "d0dd040d-b881-4284-8b87-039dd973f820",
-                  "title": "Credential Stuffing & Brute Force Attacks and Data Breaches",
+                  "title": " Data Breaches",
                   "status": "Open",
                   "severity": "High",
                   "type": "Confidentiality",
-                  "description": "Vulnerabilities:\nWeak/Inconsistent data access controls.\nWeak Authentication/ Password Management Mechanisms. ",
-                  "mitigation": "1.Role-Based Access Control (RBAC) with Least Privilege.\nRestrict access to payment data based on job roles.\nRegularly audit access logs to detect unusual patterns.\nApply zero-trust principles—never assume implicit trust\n\n\n2. Multi-Factor Authentication (MFA)\nEnforce MFA for all user logins, especially for high-privilege accounts.\nImplement password less authentication (e.g. passkeys) where feasible.\nEnable adaptive authentication (e.g., blocking logins from unusual locations).",
+                  "description": "Vulnerabilities:\nWeak/Inconsistent data access controls.\nSQL Injections",
+                  "mitigation": "1.Role-Based Access Control (RBAC) with Least Privilege.\nRestrict access to payment data based on job roles.\nRegularly audit access logs to detect unusual patterns.\nApply zero-trust principles—never assume implicit trust\n\n\n",
                   "modelType": "default",
                   "new": false,
                   "number": 2,
                   "score": ""
+                },
+                {
+                  "id": "c6d3103d-33ff-4156-aa27-d8593825b794",
+                  "title": "API Exploits",
+                  "status": "Open",
+                  "severity": "Critical",
+                  "type": "Confidentiality",
+                  "description": "Unsecured APIs leading to unauthorized access or data leaks.\n\nVulnerabilities : \nUnprotected API’s: Unsecured APIs may allow unauthorized access.",
+                  "mitigation": "1.API Security Gateway\nUse an API Gateway to enforce authentication, authorization, and rate limiting.\nImplement OAuth 2.0 and API tokens for secure access.\nRegular security scans to identify and fix API vulnerabilities.",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 4,
+                  "score": ""
                 }
               ]
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -1465,6 +1498,50 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "82e784b8-5c16-4489-b834-32a9da5dc1bc",
+            "source": {
+              "x": 751,
+              "y": -730
+            },
+            "target": {
+              "cell": "022ea8c9-817b-4420-b2f2-aa833da4d9c1",
+              "port": "ab12a0ae-d0ff-46f0-9997-00ac2831aad7"
+            }
+          },
+          {
             "position": {
               "x": 570,
               "y": -320
@@ -1935,13 +2012,6 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           }
         ]
@@ -1949,6 +2019,6 @@
     ],
     "diagramTop": 3,
     "reviewer": "",
-    "threatTop": 2
+    "threatTop": 4
   }
 }
