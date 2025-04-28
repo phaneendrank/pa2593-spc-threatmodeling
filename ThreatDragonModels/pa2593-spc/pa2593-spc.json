@@ -397,7 +397,7 @@
             "data": {
               "type": "tm.Process",
               "name": "Asset : Web App",
-              "description": "",
+              "description": "Description :\nValue : High",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
@@ -409,7 +409,16 @@
             },
             "children": [
               "737c2cf8-cbf2-422a-979e-e8317dd3088c"
-            ]
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
+            }
           },
           {
             "position": {
@@ -1693,6 +1702,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -1776,7 +1786,6 @@
               ]
             },
             "id": "c38b72c7-3099-4ec0-bd29-f6f6abd49364",
-            "zIndex": 13,
             "data": {
               "type": "tm.Process",
               "name": "Asset : Account Ledger",
@@ -1812,6 +1821,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -1895,7 +1905,6 @@
               ]
             },
             "id": "311b211d-6b75-4fe7-8c35-1c65ddfa44bb",
-            "zIndex": 14,
             "data": {
               "type": "tm.Actor",
               "name": "Threat Actor : Cyber Criminals",
