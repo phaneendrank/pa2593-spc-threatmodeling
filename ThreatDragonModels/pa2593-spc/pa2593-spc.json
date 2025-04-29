@@ -457,6 +457,19 @@
                   "new": false,
                   "number": 6,
                   "score": ""
+                },
+                {
+                  "id": "61c545f7-bdba-451f-a889-9fb744561866",
+                  "title": "Lack of User Control",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Unawareness",
+                  "description": "Customers unable to manage their personal data, request deletion, or opt out.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 7,
+                  "score": ""
                 }
               ]
             },
@@ -2713,6 +2726,6 @@
     ],
     "diagramTop": 3,
     "reviewer": "",
-    "threatTop": 6
+    "threatTop": 7
   }
 }
