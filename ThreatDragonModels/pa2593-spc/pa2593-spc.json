@@ -431,12 +431,45 @@
                   "new": false,
                   "number": 3,
                   "score": ""
+                },
+                {
+                  "id": "8224018a-4465-46c2-824a-99fbe762bbf5",
+                  "title": "Data Correlation & Profiling ",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Identifiability",
+                  "description": "Over-collection of PII leading to excessive profiling.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 5,
+                  "score": ""
+                },
+                {
+                  "id": "9ed8505d-a8f2-49f3-beb3-95c3fbda78fc",
+                  "title": "Unlawful Data Processing",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Non-compliance",
+                  "description": "Collecting, storing, or sharing PII without consent or legitimate purpose.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 6,
+                  "score": ""
                 }
               ]
             },
             "children": [
               "737c2cf8-cbf2-422a-979e-e8317dd3088c"
-            ]
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
+            }
           },
           {
             "position": {
@@ -2580,6 +2613,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 17,
             "ports": {
               "groups": {
                 "top": {
@@ -2663,7 +2697,6 @@
               ]
             },
             "id": "f6b990d1-89fa-4e11-8b7b-2f93abea0510",
-            "zIndex": 17,
             "data": {
               "type": "tm.Actor",
               "name": "ThreatActor : Harvesting PD",
@@ -2680,6 +2713,6 @@
     ],
     "diagramTop": 3,
     "reviewer": "",
-    "threatTop": 4
+    "threatTop": 6
   }
 }
