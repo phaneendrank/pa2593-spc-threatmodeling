@@ -45,8 +45,8 @@
           },
           {
             "position": {
-              "x": 48,
-              "y": -80
+              "x": 90,
+              "y": -1210
             },
             "size": {
               "width": 120,
@@ -54,7 +54,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Asset Type : Payment Processing Infrastructure"
+                "text": "Security Asset Type : Payment Processing Infrastructure"
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -153,7 +153,7 @@
             "id": "c73f9e01-7b21-4b5e-84e6-4fdc27764651",
             "data": {
               "type": "tm.Store",
-              "name": "Asset Type : Payment Processing Infrastructure",
+              "name": "Security Asset Type : Payment Processing Infrastructure",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -168,8 +168,8 @@
           },
           {
             "position": {
-              "x": 450,
-              "y": -80
+              "x": 640,
+              "y": -1210
             },
             "size": {
               "width": 120,
@@ -177,7 +177,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Asset Type : Data"
+                "text": "Privacy Asset Type : Customer Personal Identifiable Information (PII)."
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -276,7 +276,7 @@
             "id": "4fc20aab-52ea-4722-9bb2-0a7925099330",
             "data": {
               "type": "tm.Store",
-              "name": "Asset Type : Data",
+              "name": "Privacy Asset Type : Customer Personal Identifiable Information (PII).",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -438,8 +438,8 @@
                   "status": "Open",
                   "severity": "High",
                   "type": "Identifiability",
-                  "description": "Over-collection of PII leading to excessive profiling.",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "description": "Privacy Vulnerability : Over-collection of PII leading to excessive profiling.",
+                  "mitigation": "Privacy Controls :\n1. Data Anonymization & Pseudonymization\nReplace direct identifiers (e.g., names, phone numbers) with pseudonyms.\nStore mapping tables separately with access controls.\nApply irreversible anonymization techniques where feasible.",
                   "modelType": "default",
                   "new": false,
                   "number": 5,
@@ -452,7 +452,7 @@
                   "severity": "High",
                   "type": "Non-compliance",
                   "description": "Collecting, storing, or sharing PII without consent or legitimate purpose.",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "mitigation": "Privacy Control:\n1.Consent Management Platform\nProvide granular consent options (e.g., opt-in for marketing but not for data sharing).\nEnable easy data subject access requests (DSAR) for deletion, rectification, or export.\nMaintain logs of consent history for auditing and regulatory compliance.",
                   "modelType": "default",
                   "new": false,
                   "number": 6,
@@ -465,7 +465,7 @@
                   "severity": "Medium",
                   "type": "Unawareness",
                   "description": "Customers unable to manage their personal data, request deletion, or opt out.",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "mitigation": "Privacy Control:\n1.Consent Management Platform.\nProvide granular consent options (e.g., opt-in for marketing but not for data sharing).\nEnable easy data subject access requests (DSAR) for deletion, rectification, or export.\nMaintain logs of consent history for auditing and regulatory compliance.\n",
                   "modelType": "default",
                   "new": false,
                   "number": 7,
@@ -475,14 +475,7 @@
             },
             "children": [
               "737c2cf8-cbf2-422a-979e-e8317dd3088c"
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
-            }
+            ]
           },
           {
             "position": {
