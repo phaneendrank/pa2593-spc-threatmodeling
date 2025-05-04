@@ -292,7 +292,7 @@
           {
             "position": {
               "x": 410,
-              "y": -500
+              "y": -512
             },
             "size": {
               "width": 60,
@@ -303,8 +303,8 @@
                 "text": "Security Asset : Web App"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -400,7 +400,7 @@
               "description": "Security Description : This is the web app for the infrastructure thorough which all the customers financial transactions are moderated for EaaS software System.\nSecurity Value : High\n\n",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": true,
               "handlesGoodsOrServices": false,
               "isWebApplication": true,
@@ -422,7 +422,7 @@
                 {
                   "id": "9be61d1a-3a09-461e-ad39-86cdb8d282a9",
                   "title": "Credential Stuffing & Brute Force Attacks",
-                  "status": "Mitigated",
+                  "status": "Open",
                   "severity": "Critical",
                   "type": "Integrity",
                   "description": "Gaining unauthorized access to payment accounts.\nSecurity Vulnerability :\nWeak Authentication/ Password Management Mechanisms.\n\nSecurity Risk: High\nFinancial Loss, Reputational Damage\n",
@@ -475,14 +475,7 @@
             },
             "children": [
               "737c2cf8-cbf2-422a-979e-e8317dd3088c"
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
-            }
+            ]
           },
           {
             "position": {
@@ -1152,11 +1145,11 @@
             "vertices": [
               {
                 "x": 360,
-                "y": -410
+                "y": -422
               },
               {
                 "x": 340,
-                "y": -470
+                "y": -482
               }
             ]
           },
@@ -3322,15 +3315,6 @@
                   "score": ""
                 }
               ]
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
