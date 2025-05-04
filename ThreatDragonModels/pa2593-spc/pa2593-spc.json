@@ -303,8 +303,8 @@
                 "text": "Security Asset : Web App"
               },
               "body": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
@@ -400,7 +400,7 @@
               "description": "Security Description : This is the web app for the infrastructure thorough which all the customers financial transactions are moderated for EaaS software System.\nSecurity Value : High\n\n",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "handlesCardPayment": true,
               "handlesGoodsOrServices": false,
               "isWebApplication": true,
@@ -409,7 +409,7 @@
                 {
                   "id": "793752cf-556f-4314-a924-d92d53d4b068",
                   "title": "DDoS Attack",
-                  "status": "Open",
+                  "status": "Mitigated",
                   "severity": "High",
                   "type": "Availability",
                   "description": "Security Vulnerability : Cybercriminals overwhelming EaaS Payment Servers to disrupt the financial operations.\nSecurity Risk :  High. Financial Loss and Reputational Damage.\n\n",
@@ -422,7 +422,7 @@
                 {
                   "id": "9be61d1a-3a09-461e-ad39-86cdb8d282a9",
                   "title": "Credential Stuffing & Brute Force Attacks",
-                  "status": "Open",
+                  "status": "Mitigated",
                   "severity": "Critical",
                   "type": "Integrity",
                   "description": "Gaining unauthorized access to payment accounts.\nSecurity Vulnerability :\nWeak Authentication/ Password Management Mechanisms.\n\nSecurity Risk: High\nFinancial Loss, Reputational Damage\n",
@@ -475,7 +475,14 @@
             },
             "children": [
               "737c2cf8-cbf2-422a-979e-e8317dd3088c"
-            ]
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
+            }
           },
           {
             "position": {
@@ -491,13 +498,11 @@
                 "text": "Asset : WebApp DB"
               },
               "topLine": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
@@ -593,7 +598,7 @@
               "description": "Security Value : High",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
@@ -603,7 +608,7 @@
                 {
                   "id": "d0dd040d-b881-4284-8b87-039dd973f820",
                   "title": " Data Breaches",
-                  "status": "Open",
+                  "status": "Mitigated",
                   "severity": "High",
                   "type": "Confidentiality",
                   "description": "Security Vulnerabilities:\nWeak/Inconsistent data access controls.\nSQL Injections\n\nSecurity Risk :\nFinancial Loss, Reputational Damage",
@@ -616,7 +621,7 @@
                 {
                   "id": "c6d3103d-33ff-4156-aa27-d8593825b794",
                   "title": "API Exploits",
-                  "status": "Open",
+                  "status": "Mitigated",
                   "severity": "Critical",
                   "type": "Confidentiality",
                   "description": "Unsecured APIs leading to unauthorized access or data leaks.\n\nSecurity Vulnerabilities : \nUnprotected API’s: Unsecured APIs may allow unauthorized access.\n\nSecurity Risk: Financial Loss, Reputational Damage\n",
