@@ -435,8 +435,8 @@
                 {
                   "id": "8224018a-4465-46c2-824a-99fbe762bbf5",
                   "title": "",
-                  "status": "Open",
-                  "severity": "High",
+                  "status": "NotApplicable",
+                  "severity": "TBD",
                   "type": "Identifiability",
                   "description": "",
                   "mitigation": "",
@@ -448,8 +448,8 @@
                 {
                   "id": "9ed8505d-a8f2-49f3-beb3-95c3fbda78fc",
                   "title": "",
-                  "status": "Open",
-                  "severity": "High",
+                  "status": "NotApplicable",
+                  "severity": "TBD",
                   "type": "Non-compliance",
                   "description": "",
                   "mitigation": "",
@@ -461,8 +461,8 @@
                 {
                   "id": "61c545f7-bdba-451f-a889-9fb744561866",
                   "title": "",
-                  "status": "Open",
-                  "severity": "Medium",
+                  "status": "NotApplicable",
+                  "severity": "TBD",
                   "type": "Unawareness",
                   "description": "",
                   "mitigation": "\n",
