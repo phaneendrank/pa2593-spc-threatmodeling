@@ -3099,7 +3099,7 @@
             "data": {
               "type": "tm.Process",
               "name": "Privacy Asset : User Registration Form",
-              "description": "Privacy Description for the asset : this is the form through which all the users for the EaaS system as expected to register to avail services from the software system\n\nPrivacy Value : High",
+              "description": "Privacy Description for the asset : this is the form through which all the users for the EaaS system as expected to register to avail services from the software system\nPrivacy data Processed : User Information( Name, Surname, Address, Contact number, Gender, ZIP)\nPrivacy Value : High",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": true,
@@ -3151,6 +3151,8 @@
             },
             "tools": {
               "items": [
+                "boundary",
+                "button-remove",
                 "boundary",
                 "button-remove"
               ],
