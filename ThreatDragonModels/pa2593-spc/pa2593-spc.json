@@ -3005,8 +3005,8 @@
                 "text": "Asset : User Registration Form"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -3102,12 +3102,26 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "1154527c-97f1-4372-b179-5efee97ee1cf",
+                  "title": "Data Correlation & Profiling ",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Identifiability",
+                  "description": "Privacy Vulnerability : Over-collection of PII leading to excessive profiling.",
+                  "mitigation": "Privacy Controls :\n1. Data Anonymization & Pseudonymization\nReplace direct identifiers (e.g., names, phone numbers) with pseudonyms.\nStore mapping tables separately with access controls.\nApply irreversible anonymization techniques where feasible.\n",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 8,
+                  "score": ""
+                }
+              ]
             }
           },
           {
@@ -3134,6 +3148,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 19,
             "ports": {
               "groups": {
                 "top": {
@@ -3217,7 +3232,6 @@
               ]
             },
             "id": "e860cedc-5a5f-4536-9910-319d54360e6b",
-            "zIndex": 19,
             "data": {
               "type": "tm.Store",
               "name": "Asset : Customer Information DB",
@@ -3254,6 +3268,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 20,
             "ports": {
               "groups": {
                 "top": {
@@ -3337,7 +3352,6 @@
               ]
             },
             "id": "623dd51e-ceeb-451f-8ce1-ae7bf8bee1f5",
-            "zIndex": 20,
             "data": {
               "type": "tm.Process",
               "name": "Asset : Backup",
@@ -3376,6 +3390,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 21,
             "ports": {
               "groups": {
                 "top": {
@@ -3459,7 +3474,6 @@
               ]
             },
             "id": "031bb7f1-3f11-4d2e-bce0-ba5fe381ed9e",
-            "zIndex": 21,
             "data": {
               "type": "tm.Store",
               "name": "Asset : CI DB BKP",
@@ -3480,6 +3494,6 @@
     ],
     "diagramTop": 3,
     "reviewer": "",
-    "threatTop": 7
+    "threatTop": 8
   }
 }
