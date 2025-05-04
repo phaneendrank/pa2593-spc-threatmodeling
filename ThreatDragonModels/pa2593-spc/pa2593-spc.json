@@ -437,7 +437,7 @@
                   "title": "",
                   "status": "NotApplicable",
                   "severity": "TBD",
-                  "type": "Ephemeral",
+                  "type": "--- DIE ---",
                   "description": "",
                   "mitigation": "",
                   "modelType": "default",
@@ -450,7 +450,7 @@
                   "title": "",
                   "status": "NotApplicable",
                   "severity": "TBD",
-                  "type": "Ephemeral",
+                  "type": "--- DIE ---",
                   "description": "",
                   "mitigation": "",
                   "modelType": "default",
@@ -463,7 +463,7 @@
                   "title": "",
                   "status": "NotApplicable",
                   "severity": "TBD",
-                  "type": "Ephemeral",
+                  "type": "--- DIE ---",
                   "description": "",
                   "mitigation": "\n",
                   "modelType": "default",
@@ -4020,13 +4020,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 31,
             "id": "ca695f9e-ad0b-42db-b56b-56d6f089d44b",
             "data": {
               "type": "tm.Text",
               "name": "In/Out Bound",
               "hasOpenThreats": false
-            },
-            "zIndex": 31
+            }
           },
           {
             "position": {
@@ -4044,13 +4044,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 32,
             "id": "0f814e15-70c1-421e-bbbb-ffd901d1ec0f",
             "data": {
               "type": "tm.Text",
               "name": "In/Out Bound",
               "hasOpenThreats": false
-            },
-            "zIndex": 32
+            }
           }
         ]
       }
