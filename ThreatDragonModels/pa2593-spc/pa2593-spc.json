@@ -597,7 +597,7 @@
             "data": {
               "type": "tm.Store",
               "name": "Asset : WebApp DB",
-              "description": "Value : High",
+              "description": "Security Value : High",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": true,
@@ -613,8 +613,8 @@
                   "status": "Open",
                   "severity": "High",
                   "type": "Confidentiality",
-                  "description": "Vulnerabilities:\nWeak/Inconsistent data access controls.\nSQL Injections",
-                  "mitigation": "1.Role-Based Access Control (RBAC) with Least Privilege.\nRestrict access to payment data based on job roles.\nRegularly audit access logs to detect unusual patterns.\nApply zero-trust principles—never assume implicit trust\n\n\n",
+                  "description": "Security Vulnerabilities:\nWeak/Inconsistent data access controls.\nSQL Injections\n\nSecurity Risk :\nFinancial Loss, Reputational Damage",
+                  "mitigation": "Security Controls :\n1.Role-Based Access Control (RBAC) with Least Privilege.\nRestrict access to payment data based on job roles.\nRegularly audit access logs to detect unusual patterns.\nApply zero-trust principles—never assume implicit trust\n\n\n",
                   "modelType": "default",
                   "new": false,
                   "number": 2,
@@ -626,14 +626,21 @@
                   "status": "Open",
                   "severity": "Critical",
                   "type": "Confidentiality",
-                  "description": "Unsecured APIs leading to unauthorized access or data leaks.\n\nVulnerabilities : \nUnprotected API’s: Unsecured APIs may allow unauthorized access.",
-                  "mitigation": "1.API Security Gateway\nUse an API Gateway to enforce authentication, authorization, and rate limiting.\nImplement OAuth 2.0 and API tokens for secure access.\nRegular security scans to identify and fix API vulnerabilities.",
+                  "description": "Unsecured APIs leading to unauthorized access or data leaks.\n\nSecurity Vulnerabilities : \nUnprotected API’s: Unsecured APIs may allow unauthorized access.\n\nSecurity Risk: Financial Loss, Reputational Damage\n",
+                  "mitigation": "Security Controls :\n1.API Security Gateway\nUse an API Gateway to enforce authentication, authorization, and rate limiting.\nImplement OAuth 2.0 and API tokens for secure access.\nRegular security scans to identify and fix API vulnerabilities.",
                   "modelType": "default",
                   "new": false,
                   "number": 4,
                   "score": ""
                 }
               ]
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
