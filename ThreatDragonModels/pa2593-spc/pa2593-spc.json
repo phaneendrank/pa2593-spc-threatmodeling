@@ -2290,6 +2290,50 @@
             }
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "2ae3f32b-d8cb-4336-ac2d-80e2feea69a1",
+            "source": {
+              "x": 520,
+              "y": -820
+            },
+            "target": {
+              "cell": "311b211d-6b75-4fe7-8c35-1c65ddfa44bb",
+              "port": "8cc032c3-b9c8-42b6-be6f-97f387e0721c"
+            }
+          },
+          {
             "position": {
               "x": 570,
               "y": -320
@@ -3665,8 +3709,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "cc3c4892-acb6-45b1-a5d0-3c3b105a8df4",
             "zIndex": 22,
+            "id": "cc3c4892-acb6-45b1-a5d0-3c3b105a8df4",
             "data": {
               "type": "tm.Text",
               "name": "In/Out Bound",
@@ -3689,13 +3733,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 23,
             "id": "a0e6e6ff-92aa-4a32-83f1-c2372274de14",
             "data": {
               "type": "tm.Text",
               "name": "In/Out Bound",
               "hasOpenThreats": false
-            },
-            "zIndex": 23
+            }
           },
           {
             "position": {
@@ -3713,13 +3757,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 24,
             "id": "61a70457-2e90-462c-bf98-95b0810bb8d1",
             "data": {
               "type": "tm.Text",
               "name": "In/Out Bound",
               "hasOpenThreats": false
-            },
-            "zIndex": 24
+            }
           },
           {
             "position": {
@@ -3737,13 +3781,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 25,
             "id": "0cc6eb1b-b5c9-4d59-80da-f9a186620d6b",
             "data": {
               "type": "tm.Text",
               "name": "In/Out Bound",
               "hasOpenThreats": false
-            },
-            "zIndex": 25
+            }
           },
           {
             "position": {
@@ -3761,8 +3805,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "10f455e3-5cf5-4cdb-a946-242deaa3be20",
             "zIndex": 26,
+            "id": "10f455e3-5cf5-4cdb-a946-242deaa3be20",
             "data": {
               "type": "tm.Text",
               "name": "PD storage",
@@ -3785,13 +3829,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 27,
             "id": "ce57833f-0b5d-4980-bc55-801111bb18e4",
             "data": {
               "type": "tm.Text",
               "name": "In/Out Bound",
               "hasOpenThreats": false
-            },
-            "zIndex": 27
+            }
           },
           {
             "position": {
@@ -3809,13 +3853,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 28,
             "id": "78defd4f-3431-4a5e-952f-4f4e2b8eb00d",
             "data": {
               "type": "tm.Text",
               "name": "PD storage",
               "hasOpenThreats": false
-            },
-            "zIndex": 28
+            }
           },
           {
             "position": {
@@ -3838,6 +3882,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 29,
             "ports": {
               "groups": {
                 "top": {
@@ -3921,7 +3966,6 @@
               ]
             },
             "id": "f05dedc3-dbdd-4018-a9ad-11bad4cb7172",
-            "zIndex": 29,
             "data": {
               "type": "tm.Process",
               "name": "Asset : Data Connector and Processor",
@@ -3952,13 +3996,61 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "8db7b570-6972-4f33-a2ed-e645009b24f6",
             "zIndex": 30,
+            "id": "8db7b570-6972-4f33-a2ed-e645009b24f6",
             "data": {
               "type": "tm.Text",
               "name": "PD Processing",
               "hasOpenThreats": false
             }
+          },
+          {
+            "position": {
+              "x": 1043.75,
+              "y": -851
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "In/Out Bound"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "ca695f9e-ad0b-42db-b56b-56d6f089d44b",
+            "data": {
+              "type": "tm.Text",
+              "name": "In/Out Bound",
+              "hasOpenThreats": false
+            },
+            "zIndex": 31
+          },
+          {
+            "position": {
+              "x": 675.75,
+              "y": -885
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "In/Out Bound"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "0f814e15-70c1-421e-bbbb-ffd901d1ec0f",
+            "data": {
+              "type": "tm.Text",
+              "name": "In/Out Bound",
+              "hasOpenThreats": false
+            },
+            "zIndex": 32
           }
         ]
       }
