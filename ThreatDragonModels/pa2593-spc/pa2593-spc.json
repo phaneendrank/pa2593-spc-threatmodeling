@@ -300,7 +300,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Asset : Web App"
+                "text": "Security Asset : Web App"
               },
               "body": {
                 "stroke": "red",
@@ -396,7 +396,7 @@
             "id": "706c98fb-ee4a-41e7-ba14-16552707d2cf",
             "data": {
               "type": "tm.Process",
-              "name": "Asset : Web App",
+              "name": "Security Asset : Web App",
               "description": "Security Description : This is the web app for the infrastructure thorough which all the customers financial transactions are moderated for EaaS software System.\nSecurity Value : High\n\n",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -475,14 +475,7 @@
             },
             "children": [
               "737c2cf8-cbf2-422a-979e-e8317dd3088c"
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
-            }
+            ]
           },
           {
             "position": {
@@ -3009,7 +3002,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Asset : User Registration Form"
+                "text": "Privacy Asset : User Registration Form"
               },
               "body": {
                 "stroke": "red",
@@ -3105,7 +3098,7 @@
             "id": "8356d818-c8a3-475c-8397-3b8c410e9b36",
             "data": {
               "type": "tm.Process",
-              "name": "Asset : User Registration Form",
+              "name": "Privacy Asset : User Registration Form",
               "description": "Privacy Description for the asset : this is the form through which all the users for the EaaS system as expected to register to avail services from the software system\n\nPrivacy Value : High",
               "outOfScope": false,
               "reasonOutOfScope": "",
