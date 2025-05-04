@@ -41,13 +41,6 @@
               "description": "Value : High",
               "isTrustBoundary": true,
               "hasOpenThreats": false
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -3120,6 +3113,32 @@
                   "new": false,
                   "number": 8,
                   "score": ""
+                },
+                {
+                  "id": "da4bd083-de8c-49dc-a3c2-f22f3fa6810e",
+                  "title": "Unlawful Data Processing",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Non-compliance",
+                  "description": "Privacy Vulnerability : Collecting, storing, or sharing PII without consent or legitimate purpose.",
+                  "mitigation": "Privacy Control:\n1.Consent Management Platform\nProvide granular consent options (e.g., opt-in for marketing but not for data sharing).\nEnable easy data subject access requests (DSAR) for deletion, rectification, or export.\nMaintain logs of consent history for auditing and regulatory compliance.",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 9,
+                  "score": ""
+                },
+                {
+                  "id": "62940502-eefa-461e-ab6f-45f9178469e1",
+                  "title": "Lack of User Control",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Unawareness",
+                  "description": "Privacy Vulnerability : Customers unable to manage their personal data, request deletion, or opt out.",
+                  "mitigation": "Privacy Control:\n1.Consent Management Platform.\nProvide granular consent options (e.g., opt-in for marketing but not for data sharing).\nEnable easy data subject access requests (DSAR) for deletion, rectification, or export.\nMaintain logs of consent history for auditing and regulatory compliance.",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 10,
+                  "score": ""
                 }
               ]
             }
@@ -3494,6 +3513,6 @@
     ],
     "diagramTop": 3,
     "reviewer": "",
-    "threatTop": 8
+    "threatTop": 10
   }
 }
