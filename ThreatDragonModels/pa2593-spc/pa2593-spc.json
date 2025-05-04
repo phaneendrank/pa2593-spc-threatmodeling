@@ -397,7 +397,7 @@
             "data": {
               "type": "tm.Process",
               "name": "Asset : Web App",
-              "description": "Security Description :\nSecurity Value : High\n\nPrivacy Description :\nPrivacy Value : High",
+              "description": "Security Description : This is the web app for the infrastructure thorough which all the customers financial transactions are moderated for EaaS software System.\nSecurity Value : High\n\n",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": true,
@@ -412,8 +412,8 @@
                   "status": "Open",
                   "severity": "High",
                   "type": "Availability",
-                  "description": "Cybercriminals overwhelming EaaS Payment Servers to disrupt the financial operations.\nRisk : High\n\n",
-                  "mitigation": "1.Web Application Firewall (WAF) & DDoS Protection.\nDeploy a cloud-based DDoS mitigation service (e.g., AWS Shield, Cloudflare).\nImplement rate limiting & bot detection for payment requests.\nUse AI-driven traffic analysis to detect unusual surges.\n\n2. Immutable Backups with Real-Time Anomaly Detection.\nMaintain offline, immutable backups of payment data.\nImplement automated response mechanisms to isolate infected systems.\nUse real-time anomaly detection (e.g., detecting unusual encryption of files).",
+                  "description": "Security Vulnerability : Cybercriminals overwhelming EaaS Payment Servers to disrupt the financial operations.\nSecurity Risk :  High. Financial Loss and Reputational Damage.\n\n",
+                  "mitigation": "Security Controls :\n1.Web Application Firewall (WAF) & DDoS Protection.\nDeploy a cloud-based DDoS mitigation service (e.g., AWS Shield, Cloudflare).\nImplement rate limiting & bot detection for payment requests.\nUse AI-driven traffic analysis to detect unusual surges.\n\n2. Immutable Backups with Real-Time Anomaly Detection.\nMaintain offline, immutable backups of payment data.\nImplement automated response mechanisms to isolate infected systems.\nUse real-time anomaly detection (e.g., detecting unusual encryption of files).",
                   "modelType": "default",
                   "new": false,
                   "number": 1,
@@ -425,8 +425,8 @@
                   "status": "Open",
                   "severity": "Critical",
                   "type": "Integrity",
-                  "description": "Gaining unauthorized access to payment accounts.\nVulnerabilities :\nWeak Authentication/ Password Management Mechanisms.",
-                  "mitigation": "1.Multi-Factor Authentication (MFA).\nEnforce MFA for all user logins, especially for high-privilege accounts.\nImplement password less authentication (e.g. passkeys) where feasible.\nEnable adaptive authentication (e.g., blocking logins from unusual locations).",
+                  "description": "Gaining unauthorized access to payment accounts.\nSecurity Vulnerability :\nWeak Authentication/ Password Management Mechanisms.\n\nSecurity Risk: High\nFinancial Loss, Reputational Damage\n",
+                  "mitigation": "Security Controls :\n1.Multi-Factor Authentication (MFA).\nEnforce MFA for all user logins, especially for high-privilege accounts.\nImplement password less authentication (e.g. passkeys) where feasible.\nEnable adaptive authentication (e.g., blocking logins from unusual locations).",
                   "modelType": "default",
                   "new": false,
                   "number": 3,
@@ -475,7 +475,14 @@
             },
             "children": [
               "737c2cf8-cbf2-422a-979e-e8317dd3088c"
-            ]
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
+            }
           },
           {
             "position": {
