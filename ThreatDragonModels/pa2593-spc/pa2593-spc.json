@@ -20,7 +20,7 @@
           {
             "position": {
               "x": -260,
-              "y": -870
+              "y": -885
             },
             "size": {
               "width": 1660,
@@ -627,13 +627,6 @@
                   "score": ""
                 }
               ]
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -2165,6 +2158,138 @@
             }
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "6af5f383-79fd-4dd3-bb31-5f74fe3baa7e",
+            "source": {
+              "x": -30,
+              "y": -910
+            },
+            "target": {
+              "cell": "603921f5-54ea-4f74-b296-fdcbbbf7f6c4",
+              "port": "0674783b-0a7c-4b91-9711-38dabe9f21ff"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "5b6cb1b8-04cd-4df0-bd8a-50a33d974b38",
+            "source": {
+              "x": 620,
+              "y": -420
+            },
+            "target": {
+              "x": 806,
+              "y": -380
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "0d52d497-ed75-49ec-91aa-8f1ce82a1eb2",
+            "source": {
+              "x": 570,
+              "y": -420
+            },
+            "target": {
+              "cell": "e4260cd4-1cd6-4e63-8842-eaff859bfa9a",
+              "port": "59f9d209-4848-4364-853c-b46490cddc4a"
+            }
+          },
+          {
             "position": {
               "x": 570,
               "y": -320
@@ -3270,7 +3395,7 @@
             "data": {
               "type": "tm.Store",
               "name": "Asset : Customer Information DB",
-              "description": "",
+              "description": "PD is Storage",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
@@ -3285,7 +3410,7 @@
           {
             "position": {
               "x": 1070,
-              "y": -466
+              "y": -480
             },
             "size": {
               "width": 60,
@@ -3512,7 +3637,7 @@
             "data": {
               "type": "tm.Store",
               "name": "Asset : CI DB BKP",
-              "description": "",
+              "description": "PD storage",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
@@ -3522,6 +3647,317 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": -98,
+              "y": -920
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "In/Out Bound"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "cc3c4892-acb6-45b1-a5d0-3c3b105a8df4",
+            "zIndex": 22,
+            "data": {
+              "type": "tm.Text",
+              "name": "In/Out Bound",
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 322.5,
+              "y": -930
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "In/Out Bound"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "a0e6e6ff-92aa-4a32-83f1-c2372274de14",
+            "data": {
+              "type": "tm.Text",
+              "name": "In/Out Bound",
+              "hasOpenThreats": false
+            },
+            "zIndex": 23
+          },
+          {
+            "position": {
+              "x": 620,
+              "y": -760
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "In/Out Bound"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "61a70457-2e90-462c-bf98-95b0810bb8d1",
+            "data": {
+              "type": "tm.Text",
+              "name": "In/Out Bound",
+              "hasOpenThreats": false
+            },
+            "zIndex": 24
+          },
+          {
+            "position": {
+              "x": 803.75,
+              "y": -580
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "In/Out Bound"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "0cc6eb1b-b5c9-4d59-80da-f9a186620d6b",
+            "data": {
+              "type": "tm.Text",
+              "name": "In/Out Bound",
+              "hasOpenThreats": false
+            },
+            "zIndex": 25
+          },
+          {
+            "position": {
+              "x": 882.5,
+              "y": -500
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "PD storage"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "10f455e3-5cf5-4cdb-a946-242deaa3be20",
+            "zIndex": 26,
+            "data": {
+              "type": "tm.Text",
+              "name": "PD storage",
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 386.5,
+              "y": -866
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "In/Out Bound"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "ce57833f-0b5d-4980-bc55-801111bb18e4",
+            "data": {
+              "type": "tm.Text",
+              "name": "In/Out Bound",
+              "hasOpenThreats": false
+            },
+            "zIndex": 27
+          },
+          {
+            "position": {
+              "x": 1226,
+              "y": -530
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "PD storage"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "78defd4f-3431-4a5e-952f-4f4e2b8eb00d",
+            "data": {
+              "type": "tm.Text",
+              "name": "PD storage",
+              "hasOpenThreats": false
+            },
+            "zIndex": 28
+          },
+          {
+            "position": {
+              "x": 570,
+              "y": -452
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Asset : Data Connector and Processor"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "f656b6fc-1899-46ce-bce4-5a3077f2ef92"
+                },
+                {
+                  "group": "right",
+                  "id": "ea028789-32b2-413f-8202-65d2a0cf3ef4"
+                },
+                {
+                  "group": "bottom",
+                  "id": "5ffbd03a-7bdf-4d36-9caa-bd0ba6a109f6"
+                },
+                {
+                  "group": "left",
+                  "id": "a2dcfe17-9038-4775-8d6c-2609f7e04b1e"
+                }
+              ]
+            },
+            "id": "f05dedc3-dbdd-4018-a9ad-11bad4cb7172",
+            "zIndex": 29,
+            "data": {
+              "type": "tm.Process",
+              "name": "Asset : Data Connector and Processor",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 544,
+              "y": -392
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "PD Processing"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "8db7b570-6972-4f33-a2ed-e645009b24f6",
+            "zIndex": 30,
+            "data": {
+              "type": "tm.Text",
+              "name": "PD Processing",
+              "hasOpenThreats": false
             }
           }
         ]
