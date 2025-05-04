@@ -2532,7 +2532,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Threat Actor : Cyber Criminals"
+                "text": "Security Threat Actor : Cyber Criminals"
               },
               "body": {
                 "stroke": "#333333",
@@ -2628,7 +2628,7 @@
             "id": "311b211d-6b75-4fe7-8c35-1c65ddfa44bb",
             "data": {
               "type": "tm.Actor",
-              "name": "Threat Actor : Cyber Criminals",
+              "name": "Security Threat Actor : Cyber Criminals",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -2886,7 +2886,7 @@
             },
             "attrs": {
               "text": {
-                "text": "ThreatActor : Harvesting PD"
+                "text": "Privacy Threat Actor : Harvesting PD"
               },
               "body": {
                 "stroke": "#333333",
@@ -2982,7 +2982,7 @@
             "id": "f6b990d1-89fa-4e11-8b7b-2f93abea0510",
             "data": {
               "type": "tm.Actor",
-              "name": "ThreatActor : Harvesting PD",
+              "name": "Privacy Threat Actor : Harvesting PD",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
