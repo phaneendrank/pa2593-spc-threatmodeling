@@ -2441,6 +2441,51 @@
             "vertices": []
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "b9fe282e-6533-4d91-b3c7-1da10e75e0c2",
+            "source": {
+              "cell": "8356d818-c8a3-475c-8397-3b8c410e9b36",
+              "port": "7db1c40a-d43b-47c6-a677-78ee318660d3"
+            },
+            "target": {
+              "x": 700,
+              "y": -630
+            },
+            "vertices": []
+          },
+          {
             "position": {
               "x": 570,
               "y": -320
@@ -3437,7 +3482,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Asset : Customer Information DB"
+                "text": "Privacy Asset : Customer Information DB"
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -3536,7 +3581,7 @@
             "id": "e860cedc-5a5f-4536-9910-319d54360e6b",
             "data": {
               "type": "tm.Store",
-              "name": "Asset : Customer Information DB",
+              "name": "Privacy Asset : Customer Information DB",
               "description": "PD is Storage",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -3879,13 +3924,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 32,
             "id": "5eef9a65-1dfa-4553-9cce-0dcf9d9ea94c",
             "data": {
               "type": "tm.Text",
               "name": "In/Out Bound",
               "hasOpenThreats": false
-            },
-            "zIndex": 32
+            }
           },
           {
             "position": {
@@ -3903,13 +3948,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 33,
             "id": "a31ed324-259f-4c30-80b1-b66b8c24780c",
             "data": {
               "type": "tm.Text",
               "name": "In/Out Bound",
               "hasOpenThreats": false
-            },
-            "zIndex": 33
+            }
           },
           {
             "position": {
@@ -3927,13 +3972,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 34,
             "id": "bb23e888-0033-46a0-b0dc-94a5d9ab7577",
             "data": {
               "type": "tm.Text",
               "name": "In/Out Bound",
               "hasOpenThreats": false
-            },
-            "zIndex": 34
+            }
           },
           {
             "position": {
@@ -3951,13 +3996,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 35,
             "id": "bb3cf346-4237-42ae-b2c5-47afc2aa6d0c",
             "data": {
               "type": "tm.Text",
               "name": "In/Out Bound",
               "hasOpenThreats": false
-            },
-            "zIndex": 35
+            }
           }
         ]
       }
