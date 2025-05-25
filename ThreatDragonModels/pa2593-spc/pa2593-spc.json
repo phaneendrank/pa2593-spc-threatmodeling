@@ -3431,12 +3431,12 @@
               "threats": [
                 {
                   "id": "1154527c-97f1-4372-b179-5efee97ee1cf",
-                  "title": "Data Correlation & Profiling ",
+                  "title": "",
                   "status": "Open",
                   "severity": "High",
-                  "type": "Identifiability",
-                  "description": "Privacy Vulnerability : Over-collection of PII leading to excessive profiling.\n\nPrivacy Risk : High\nIdentity theft, Profiling, unwanted data monetization",
-                  "mitigation": "Privacy Controls :\n1. Data Anonymization & Pseudonymization\nReplace direct identifiers (e.g., names, phone numbers) with pseudonyms.\nStore mapping tables separately with access controls.\nApply irreversible anonymization techniques where feasible.\n",
+                  "type": "Unawareness",
+                  "description": "",
+                  "mitigation": "\n",
                   "modelType": "default",
                   "new": false,
                   "number": 8,
