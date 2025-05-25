@@ -3848,7 +3848,7 @@
             "data": {
               "type": "tm.Process",
               "name": "Control : Consent Management Platform",
-              "description": "",
+              "description": "Provide granular consent options (e.g., opt-in for marketing but not for data sharing).\nEnable easy data subject access requests (DSAR) for deletion, rectification, or export.\nMaintain logs of consent history for auditing and regulatory compliance.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
@@ -3880,6 +3880,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 37,
             "ports": {
               "groups": {
                 "top": {
@@ -3963,7 +3964,6 @@
               ]
             },
             "id": "53b9a3aa-1c04-4221-88e7-ab116a3487b1",
-            "zIndex": 37,
             "data": {
               "type": "tm.Process",
               "name": "Control : Data Ananymization",
