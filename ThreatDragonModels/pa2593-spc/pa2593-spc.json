@@ -3751,7 +3751,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Control : Consent Management Platform"
+                "text": "Privacy Control : Consent Management Platform"
               },
               "body": {
                 "stroke": "#333333",
@@ -3847,7 +3847,7 @@
             "id": "47c6a707-67ab-4afb-a4a0-f324e26dcfd7",
             "data": {
               "type": "tm.Process",
-              "name": "Control : Consent Management Platform",
+              "name": "Privacy Control : Consent Management Platform",
               "description": "Provide granular consent options (e.g., opt-in for marketing but not for data sharing).\nEnable easy data subject access requests (DSAR) for deletion, rectification, or export.\nMaintain logs of consent history for auditing and regulatory compliance.",
               "outOfScope": false,
               "reasonOutOfScope": "",
