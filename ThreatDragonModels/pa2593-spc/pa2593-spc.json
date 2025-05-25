@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": -230,
-              "y": -960
+              "x": -70,
+              "y": -1000
             },
             "size": {
               "width": 2400,
@@ -2223,14 +2223,14 @@
             "labels": [
               "Data Flow"
             ],
-            "id": "db768272-6853-494a-83f1-d13c4d17ff4c",
+            "id": "9c529b5a-d38b-43ea-a611-22eea3ac90b5",
             "source": {
               "cell": "47c6a707-67ab-4afb-a4a0-f324e26dcfd7",
               "port": "e299d41f-b8df-4178-97f0-7b6ce125bc0e"
             },
             "target": {
-              "cell": "e860cedc-5a5f-4536-9910-319d54360e6b",
-              "port": "1f0b4459-fb2c-4c43-b99e-852dcb657f53"
+              "cell": "53b9a3aa-1c04-4221-88e7-ab116a3487b1",
+              "port": "ddb0bd43-e529-4067-98dd-e56ddcaaccfc"
             },
             "vertices": []
           },
@@ -2268,14 +2268,59 @@
             "labels": [
               "Data Flow"
             ],
-            "id": "00a44798-3dc4-4e83-bb2b-e1e531f99a8f",
+            "id": "f5389433-1f14-4db7-8442-10d672aabb05",
             "source": {
-              "cell": "e860cedc-5a5f-4536-9910-319d54360e6b",
-              "port": "1f0b4459-fb2c-4c43-b99e-852dcb657f53"
+              "cell": "53b9a3aa-1c04-4221-88e7-ab116a3487b1",
+              "port": "ddb0bd43-e529-4067-98dd-e56ddcaaccfc"
             },
             "target": {
               "cell": "47c6a707-67ab-4afb-a4a0-f324e26dcfd7",
               "port": "e299d41f-b8df-4178-97f0-7b6ce125bc0e"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "e81c8eef-47dc-401a-98b6-2f49897d23d5",
+            "source": {
+              "cell": "53b9a3aa-1c04-4221-88e7-ab116a3487b1",
+              "port": "01440a8d-ca4c-4e93-95a8-1dc7fa0b7e5b"
+            },
+            "target": {
+              "cell": "e860cedc-5a5f-4536-9910-319d54360e6b",
+              "port": "1f0b4459-fb2c-4c43-b99e-852dcb657f53"
             },
             "vertices": []
           },
@@ -3148,8 +3193,8 @@
           },
           {
             "position": {
-              "x": 822.5,
-              "y": -452
+              "x": 995,
+              "y": -490
             },
             "size": {
               "width": 120,
@@ -3287,8 +3332,8 @@
           },
           {
             "position": {
-              "x": 1100,
-              "y": -480
+              "x": 1240,
+              "y": -490
             },
             "size": {
               "width": 60,
@@ -3406,8 +3451,8 @@
           },
           {
             "position": {
-              "x": 1226,
-              "y": -480
+              "x": 1450,
+              "y": -490
             },
             "size": {
               "width": 120,
@@ -3529,8 +3574,8 @@
           },
           {
             "position": {
-              "x": 882.5,
-              "y": -500
+              "x": 1012.5,
+              "y": -550
             },
             "size": {
               "width": 112.5,
@@ -3553,8 +3598,8 @@
           },
           {
             "position": {
-              "x": 1226,
-              "y": -530
+              "x": 1453.75,
+              "y": -540
             },
             "size": {
               "width": 112.5,
@@ -3673,8 +3718,8 @@
           },
           {
             "position": {
-              "x": 789.5,
-              "y": -570
+              "x": 427.5,
+              "y": -452
             },
             "size": {
               "width": 112.5,
@@ -3716,6 +3761,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 36,
             "ports": {
               "groups": {
                 "top": {
@@ -3799,10 +3845,128 @@
               ]
             },
             "id": "47c6a707-67ab-4afb-a4a0-f324e26dcfd7",
-            "zIndex": 36,
             "data": {
               "type": "tm.Process",
               "name": "Control : Consent Management Platform",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 830,
+              "y": -490
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Control : Data Ananymization"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "0c18c84a-248f-4ab7-bfd4-589827946b56"
+                },
+                {
+                  "group": "right",
+                  "id": "01440a8d-ca4c-4e93-95a8-1dc7fa0b7e5b"
+                },
+                {
+                  "group": "bottom",
+                  "id": "5a7a1101-e961-4878-9015-ce9c4ce6713b"
+                },
+                {
+                  "group": "left",
+                  "id": "ddb0bd43-e529-4067-98dd-e56ddcaaccfc"
+                }
+              ]
+            },
+            "id": "53b9a3aa-1c04-4221-88e7-ab116a3487b1",
+            "zIndex": 37,
+            "data": {
+              "type": "tm.Process",
+              "name": "Control : Data Ananymization",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
