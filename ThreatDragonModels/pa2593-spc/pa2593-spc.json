@@ -19,11 +19,11 @@
         "cells": [
           {
             "position": {
-              "x": -70,
-              "y": -1000
+              "x": -340.0000000000007,
+              "y": -882.0000000000018
             },
             "size": {
-              "width": 2400,
+              "width": 2080,
               "height": 800
             },
             "attrs": {
@@ -41,6 +41,13 @@
               "description": "Value : High",
               "isTrustBoundary": true,
               "hasOpenThreats": false
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
