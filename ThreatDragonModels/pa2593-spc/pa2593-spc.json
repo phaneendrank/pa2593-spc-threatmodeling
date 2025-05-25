@@ -3870,7 +3870,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Control : Data Ananymization"
+                "text": "Privacy Control : Data Anonymization"
               },
               "body": {
                 "stroke": "#333333",
@@ -3966,8 +3966,8 @@
             "id": "53b9a3aa-1c04-4221-88e7-ab116a3487b1",
             "data": {
               "type": "tm.Process",
-              "name": "Control : Data Ananymization",
-              "description": "",
+              "name": "Privacy Control : Data Anonymization",
+              "description": "Replace direct identifiers (e.g., names, phone numbers) with pseudonyms.\nStore mapping tables separately with access controls.\nApply irreversible anonymization techniques where feasible.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
@@ -3976,6 +3976,13 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           }
         ]
